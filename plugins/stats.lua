@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == 'nod32' then -- Put everything you like :)
+  if matches[1]:lower() == 'MONST3R' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /nod32 ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /MONST3R ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "nod32" then -- Put everything you like :)
+    if matches[2] == "MONST3R" then -- Put everything you like :)
       if not is_admin(msg) then
         return "For admins only !"
       else
@@ -149,7 +149,3 @@ return {
 
 end
 
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است

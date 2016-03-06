@@ -1062,7 +1062,7 @@ local function run(msg, matches)
         local about = matches[3]
         savelog(msg.to.id, name_log.." ["..msg.from.id.."] has changed group description to ["..matches[3].."]")
         return set_descriptionmod(msg, data, target, about)
-      end --behroozyaghi
+      end 
     end
     if matches[1] == 'lock' then
       local target = msg.to.id
@@ -1401,7 +1401,4 @@ return {
 }
 end
 
---Copyright and edit; @behroozyaghi
---Persian Translate; @behroozyaghi
---ch : @nod32team
---کپی بدون ذکر منبع حرام است--
+

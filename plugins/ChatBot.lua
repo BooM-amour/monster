@@ -13,19 +13,19 @@ if msg.text == "hello" then
 	return "Hi honey"
 end
 if msg.text == "Salam" then
-	return "Salam aleykom"
+	return "AleyK"
 end
 if msg.text == "salam" then
 	return "va aleykol asalam"
 end
-if msg.text == "blackhat" then
-	return "my love blackhat"
+if msg.text == "MONSTER" then
+	return "MY FATHER"
 end
-if msg.text == "Blackhat" then
-	return "my father blackhat"
+if msg.text == "monster" then
+	return "my father"
 end
-if msg.text == "BLACKHAT" then
-	return "Kheily Radifeh"
+if msg.text == "saman" then
+	return "KHEYLI JIGARE"
 end
 if msg.text == "Security" then
 	return "Yes?"
@@ -56,8 +56,8 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Hh]ello$",
-		"^[Bb]lackhat$",
-		"^BLACKHAT$",
+		"^[Mm]onster$",
+		"^MONSTER$",
 		"^[Bb]ot$",
 		"^[Ss]ecurity$",
 		"^[Bb]ye$",
@@ -68,4 +68,3 @@ return {
     --privileged = true,
 	pre_process = pre_process
 }
---shared by @blackhatchannel

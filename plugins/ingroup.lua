@@ -258,7 +258,7 @@ end
 
 local function unlock_group_chat(msg, data, target)
   if not is_momod(msg) then
-    return "For moderators only!"
+    return "khkh To KE NEMITOONI!!"
   end
   local group_chat_lock = data[tostring(target)]['settings']['lock_chat']
   if group_chat_lock == 'no' then
@@ -299,7 +299,7 @@ local function unlock_group_bots(msg, data, target)
 end
 local function lock_group_fosh(msg, data, target)
 if not is_momod(msg) then
-return "For moderators only!"
+return "NARINI AB GHATE"
 end
 local group_fosh_lock = data[tostring(target)]['settings']['antifosh']
 if group_fosh_lock == 'yes' then
@@ -434,7 +434,7 @@ end
 
 local function lock_group_membermod(msg, data, target)
   if not is_momod(msg) then
-    return "For moderators only!"
+    return "WoW WHAT ARE YOU DOING?"
   end
   local group_member_lock = data[tostring(target)]['settings']['lock_member']
   if group_member_lock == 'yes' then
